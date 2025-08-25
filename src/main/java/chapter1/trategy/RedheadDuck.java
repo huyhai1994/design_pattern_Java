@@ -5,4 +5,9 @@ public class RedheadDuck extends Duck {
         RedheadDuck redheadDuck = new RedheadDuck();
         redheadDuck.display();
     }
+
+    @Override
+    public void display() {
+        System.out.println("Looks like a redhead!!!");
+    }
 }

@@ -5,4 +5,9 @@ public class MallardDuck extends Duck {
         MallardDuck mallardDuck = new MallardDuck();
         mallardDuck.display();
     }
+
+    @Override
+    public void display() {
+        System.out.println("look like a mallard!!!");
+    }
 }
